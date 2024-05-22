@@ -8,6 +8,11 @@
     font-weight: 700;
     font-style: normal;
 }
+.roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
 .roboto-regular {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -65,9 +70,9 @@ h1 {
     display: flex;
     gap: 30px;
 }
-/* header */
 /* main */
-.section{
+/* section-1 */
+.section1{
     padding: 120px 269px 140px;
     display: flex;
     align-items: center;
@@ -85,13 +90,97 @@ h2{
 }
 .article-child1{
     color: rgba(55, 55, 55, 1);
-    width: 367px;
-    height: 57px;
-
 }
 .article-child2{
     color: rgba(78, 78, 78, 1);
-    width: 459px;
+    width: 464px;
     height: 80px;
+}
+/* section-2 */
+.section2{
+    background: rgba(245, 246, 247, 1);
+    display: flex;
+    padding: 120px 0 140px 269px;   
+    gap: 85px;
+}
+.sect-child1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.sect-child11{
+    color: rgba(55, 55, 55, 1);
+}
+.sect-child12{
+    color: rgba(78, 78, 78, 1);
+    text-align: center;
+    
+}
+.sect-child2{
+    display: flex;
+    gap: 30px;
+}
+/* section-3 */
+.section3{
+    padding: 120px 269px 140px;
+    display: flex;
+    align-items: center;
+    gap: 139px;
+}
+/* section-4 */
+.section4{
+    background-image: url(images/5.jpg);
+    width: 1600px;
+    height: 524px;
+}
+/* section-5 */
+.section5{
+    padding: 120px 560px 180px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    text-align: center;   
+}
+.per-btn{
+    display: flex;
+    gap: 30px;
+
+}
+.chil-btn{
+    width: 186px;
+    height: 46px;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(0, 175, 219, 1);
+    border: none;
+    
+    
+}
+/* footer */
+.footer{
+    background-color: rgba(0, 0, 0, 1);
+    width: 1600px;
+    height: 185px; 
+    padding: 73px 120px 92px;
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-child1{
+    display: flex;
+    gap: 40px;
+    height: 20px;
+    font-size: 14px;
+}
+.footer-child3{
+    width: 170px;
+    height: 20px;
+    font-size: 14px;
+    color: rgba(129, 129, 129, 1);
+
+
+
 }
 
